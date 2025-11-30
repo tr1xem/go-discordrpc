@@ -2,20 +2,20 @@
 
 ⚡ Cross-Platform Discord Rich Presence implementation in Go
 
-[![Go Reference](https://pkg.go.dev/badge/github.com/axrona/go-discordrpc.svg)](https://pkg.go.dev/github.com/axrona/go-discordrpc)
+[![Go Reference](https://pkg.go.dev/badge/github.com/tr1xem/go-discordrpc.svg)](https://pkg.go.dev/github.com/axrona/go-discordrpc)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](LICENSE)
 
-`go-discordrpc` is a Go module for interacting with Discord Rich Presence (RPC), inspired by and forked from [rich-go](https://github.com/hugolgst/rich-go).  
+`go-discordrpc` is a Go module for interacting with Discord Rich Presence (RPC), inspired by and forked from [rich-go](https://github.com/hugolgst/rich-go).
 It provides a simple, cross-platform way to set custom activities, buttons, timestamps, and more, all from Go applications.
 
---- 
+---
 
 ## Installation
 
 You can install `go-discordrpc` using `go get`:
 
 ```bash
-go get github.com/axrona/go-discordrpc/client@v1.1.0-1
+go get github.com/tr1xem/go-discordrpc/client@v1.1.0-1
 ```
 
 ---
@@ -31,7 +31,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/axrona/go-discordrpc/client"
+	"github.com/tr1xem/go-discordrpc/client"
 )
 
 func main() {
@@ -67,7 +67,7 @@ func main() {
 		Buttons: []*client.Button{
 			{
 				Label: "GitHub",
-				Url:   "https://github.com/axrona/go-discordrpc",
+				Url:   "https://github.com/tr1xem/go-discordrpc",
 			},
 		},
 	}); err != nil {
@@ -87,14 +87,14 @@ func main() {
 }
 ```
 
---- 
+---
 
 ## Contributing / Support
 
 If you want to contribute, report a bug, or suggest a feature, please open an issue or a pull request.
 All contributions are welcome!
 
---- 
+---
 
 ## License
 
